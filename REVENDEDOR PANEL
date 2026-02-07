@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOSE MODS - STORE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500;700&display=swap');
+
+        body {
+            background-color: #050505;
+            color: #fff;
+            font-family: 'Rajdhani', sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        /* Fondo con efecto neón suave */
+        .bg-glow {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 50% -20%, #1a1a4a, transparent);
+            z-index: -1;
+        }
+
+        .cyber-card {
+            background: rgba(15, 15, 15, 0.85);
+            border: 1px solid #222;
+            border-left: 4px solid #5d5dff;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(12px);
+        }
+
+        .cyber-card:hover {
+            border-left: 4px solid #00f2ff;
+            background: rgba(25, 25, 25, 0.95);
+            box-shadow: 0 0 25px rgba(93, 93, 255, 0.15);
+        }
+
+        .price-text {
+            color: #00f2ff;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bold;
+        }
+
+        .glow-title {
+            text-shadow: 0 0 15px rgba(93, 93, 255, 0.8);
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 4px;
+        }
+
+        .btn-action {
+            background: linear-gradient(90deg, #5d5dff, #00f2ff);
+            color: #000;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .btn-action:hover {
+            filter: brightness(1.2);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="p-4 pb-20">
+
+    <div class="bg-glow"></div>
+
+    <header class="text-center my-10">
+        <h1 class="text-4xl font-bold glow-title">JOSE MODS</h1>
+        <p class="text-gray-500 text-[10px] mt-2 tracking-[0.5em]">LOS MEJORES PANELES DEL MERCADO</p>
+    </header>
+
+    <div class="max-w-md mx-auto">
+        
+        <div class="flex items-center gap-3 mb-6">
+            <div class="h-[1px] bg-gray-800 flex-grow"></div>
+            <span class="text-xs font-bold text-gray-400 tracking-widest">REVENDEDORES</span>
+            <div class="h-[1px] bg-gray-800 flex-grow"></div>
+        </div>
+
+        <div class="space-y-4">
+            
+            <div class="cyber-card p-5 rounded-r-2xl flex justify-between items-center border-l-[#00f2ff]">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider">DRIP CLIENT</h3>
+                    <p class="price-text text-xl">$25.00</p>
+                </div>
+                <a href="https://wa.me/+573228965752/?text=hola+vengo+a+comprar+DRIP+CLIENT" class="btn-action px-5 py-2 rounded-lg">Comprar</a>
+            </div>
+
+            <div class="cyber-card p-5 rounded-r-2xl flex justify-between items-center">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-gray-200">FACEBOOK PANEL</h3>
+                    <p class="price-text text-xl">$15.00</p>
+                </div>
+                <a href="https://wa.me/+573228965752/?text=hola+vengo+a+comprar+FACEBOOK+PANEL" class="btn-action px-5 py-2 rounded-lg">Comprar</a>
+            </div>
+
+            <div class="cyber-card p-5 rounded-r-2xl flex justify-between items-center">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-gray-200">FLOURITE V2</h3>
+                    <p class="price-text text-xl">$10.00</p>
+                </div>
+                <a href="https://wa.me/+573228965752/?text=hola+vengo+a+comprar+FLOURITE+V2" class="btn-action px-5 py-2 rounded-lg">Comprar</a>
+            </div>
+
+            <div class="cyber-card p-5 rounded-r-2xl flex justify-between items-center">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-gray-200">EX CLIENT</h3>
+                    <p class="price-text text-xl">$8.00</p>
+                </div>
+                <a href="https://wa.me/+573228965752/?text=hola+vengo+a+comprar+EX+CLIENT" class="btn-action px-5 py-2 rounded-lg">Comprar</a>
+            </div>
+
+            <div class="cyber-card p-5 rounded-r-2xl flex justify-between items-center">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-gray-200">BR MODS</h3>
+                    <p class="price-text text-xl">$6.00</p>
+                </div>
+                <a href="https://wa.me/+573228965752/?text=hola+vengo+a+comprar+BR+MODS" class="btn-action px-5 py-2 rounded-lg">Comprar</a>
+            </div>
+
+            <div class="cyber-card p-5 rounded-r-2xl flex justify-between items-center border-l-[#25D366]">
+                <div>
+                    <h3 class="text-xl font-bold uppercase tracking-wider text-[#25D366]">WHATSAPP SOPORTE</h3>
+                    <p class="price-text text-xl">$8.00</p>
+                </div>
+                <a href="https://wa.me/+573228965752/?text=hola+vengo+a+comprar+SOPORTE+WHATSAPP" class="btn-action px-5 py-2 rounded-lg">Comprar</a>
+            </div>
+
+        </div>
+
+        <div class="mt-12 text-center">
+            <h2 class="text-sm font-bold text-gray-400 mb-6 tracking-[0.3em]">MÉTODOS DE PAGO</h2>
+            <div class="grid grid-cols-3 gap-2">
+                <div class="bg-[#111] border border-[#222] py-3 rounded-lg text-[10px] font-bold">NEQUI</div>
+                <div class="bg-[#111] border border-[#222] py-3 rounded-lg text-[10px] font-bold">PAYPAL</div>
+                <div class="bg-[#111] border border-[#222] py-3 rounded-lg text-[10px] font-bold text-blue-400">DIAMANTE 💎</div>
+            </div>
+            <p class="text-[9px] text-gray-600 mt-4">Y MÁS MÉTODOS DISPONIBLES AL WHATSAPP</p>
+        </div>
+
+        <div class="mt-10 mb-10">
+            <a href="https://wa.me/+573228965752/?text=hola+vengo+a+comprar+panel" 
+               class="block w-full text-center border border-white/10 py-4 rounded-xl text-xs font-bold text-gray-400 hover:text-white hover:bg-white/5 transition">
+                <i class="fab fa-whatsapp text-[#25D366] mr-2"></i> COMUNÍCATE CON EL DUEÑO AQUÍ
+            </a>
+        </div>
+
+    </div>
+
+    <footer class="text-center opacity-20 text-[9px] tracking-widest uppercase pb-10">
+        JOSE MODS © 2026 | Drip Style Panel
+    </footer>
+
+</body>
+</html>
